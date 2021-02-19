@@ -1,17 +1,17 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
-//CODE HERE 
+let myName = "Justin"
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
-//CODE HERE
+let faveNum = 5
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
-//CODE HERE
+let lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -19,7 +19,9 @@
   The function should return the sum of the two parameters.
 */
 
-//CODE HERE
+let sum = function(num1, num2){
+  return (num1+num2)
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -29,8 +31,12 @@
   If 'data' is a falsy value, return a false boolean.
 */
 
-//CODE HERE
-
+// let trueOrFalse = function(data){
+//   if (data === true){
+//     return true {
+//       else
+//     }
+//   }
 //////////////////PROBLEM 6////////////////////
 /*
   Create a function called 'oddChecker' that takes in one parameter, 'num'. 
@@ -39,9 +45,15 @@
   If the number is even, return the string: 'the number is even'.
 */
 
-//CODE HERE
+// function oddChecker(num) { 
+//   if (num % 2 == 0) {
+//     return "the number is even";
+//   } else {
+//     return "the number is odd";
+//   }
+// }
 
-//////////////////PROBLEM 7////////////////////
+////////////////PROBLEM 7////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
   Have the function take the two parameters and return a string that says 
@@ -54,14 +66,16 @@
 //////////////////PROBLEM 8////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
-const faveColors = ['red', 'green', 'black']
+const faveColors = ['red', 'green', 'black'];
+const colorCopy = faveColors.slice();
 
-//CODE HERE
+
+
 
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
-//CODE HERE
+colorCopy.push('blue');
 
 //////////////////PROBLEM 10////////////////////
 /*
@@ -71,7 +85,8 @@ const faveColors = ['red', 'green', 'black']
 
 const numbers = [1, 2, 3, 4, 5]
 
-//CODE HERE
+let middleNums = Math.floor(arr.length / 2);
+let value = numbers[middleNums];
 
 //////////////////PROBLEM 11////////////////////
 /*
@@ -87,7 +102,15 @@ const numbers = [1, 2, 3, 4, 5]
   For example: 'Hello! My name is Joseph and I live in Utah"
 */
 
-//CODE HERE
+// const me = {
+//   firstName: 'Justin',
+//   state: 'Utah',
+//   age: 37,
+//   greeter: function(me) {
+//     return `Hello! My name is + firstName and I live in + state`
+//   }
+ 
+
 
 //////////////////PROBLEM 12////////////////////
 /* 
@@ -102,7 +125,21 @@ const numbers = [1, 2, 3, 4, 5]
   Return the answers array inside of the function.
 */
 
-// CODE HERE
+function bigOrSmall(arr) {
+  const answers = [];
+  for(let i = 0; i < arr.length; i++) {
+    if (arr[i] <= 100) {
+      answers.push('small');
+    } else {
+      answers.push('big');
+    }
+  }
+  return answers
+}
+
+console.log(bigOrSmall([0, 105, 100]))
+
+
 
 //////////////////PROBLEM 13////////////////////
 /* 
@@ -116,7 +153,18 @@ const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
 
-//////////////////PROBLEM 14////////////////////
+// function arrayReverser(arr){
+
+//   let reversed = [];
+  
+//   for(let i = 0; i < arr.length-1; i--){
+  
+//       reversed.push
+  
+//   }
+  
+//   return reversed;
+  
 
 let global = 'cool string'
 

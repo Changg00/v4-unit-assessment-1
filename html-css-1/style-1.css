@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+.header {
+    height: 350px;
+    width: 100%;
+    background-color:salmon
+}
+.header h1 {
+        position: absolute;
+        left: 30px;
+        top: 200px;
+        letter-spacing: 2px;
+        font-size: 45px;
+      }
+.header h2 {
+        position: absolute;
+        left: 650px;
+        top: 205px;
+        letter-spacing: 2px;
+        font-size: 40px;
+      }
+.header h3 {
+    position: absolute;
+    left: 850px;
+    top: 200px;
+    letter-spacing: 2px;
+    font-size: 40px;
+      }
+.header h4 {
+    position: absolute;
+    left: 1050px;
+    top: 190px;
+    letter-spacing: 2px;
+    font-size: 40px;
+      }
+
+.dotbox1 {
+width: 100%;
+border: 5px dotted black;
+padding: 250px;
+box-sizing: border-box ;
+margin-top: 15px;
+margin-bottom: 15px; 
+ }
+
+ .dotbox1 p1 {
+    left: 1050px;
+    top: 115px;
+    font-size: 39px;
+    margin-bottom: 500px;
+    line-height: 50px;
+    letter-spacing: 1px;
+ }
+ .dotbox1 p2 {
+    left: 50px;
+    top: 115px;
+    font-size: 39px;
+    line-height: 50px;
+    letter-spacing: 1px;
+
+ }
+.dotbox1 h5 {
+    font-size: 49px;
+    margin-left: -230px;
+    margin-top: -140px;
+
+}
+
+ 
+
+.dotbox2 {
+    width: 100%;
+    border: 5px dotted black;
+    padding: 10px;
+    box-sizing: border-box ;
+    height: 1200px;
+}
+    .dotbox2 p4 {
+        font-size: 39px;
+        position:relative;
+        top: 50px;
+        float: top;
+     
+       
+     }
+     .dotbox2 p5 {
+        position:relative;
+        top: 115px;
+        font-size: 39px;
+        bottom: 200px;
+      
+    
+     }
+     .dotbox2 p6 {
+        position:relative;
+        top: 100px;
+        font-size: 39px;
+        float: bottom;
+        
+     }
+    .dotbox2 h6 {
+        position: relative;
+        font-size: 49px;
+        
+    
+    }

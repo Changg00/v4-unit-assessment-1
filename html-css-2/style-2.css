@@ -1,0 +1,204 @@
+body, html {
+    margin: 0;
+    padding: 3px;
+  }
+
+
+.header {
+    margin-bottom: 40px;
+    height: 70px;
+    width: 100%;
+    background-color:rgb(143, 253, 220);
+}
+.header h1 {
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.linebox1 {
+    margin-top: 70px;
+    border: 1px dashed black;
+    height: 250px;
+    width: 100%;
+}
+.linebox1 h1{
+
+    position: relative;
+    top: -60px;
+    font-size: 30px;
+    text-align: left;
+}
+.rect {
+    width: 250px;
+    height: 100px;
+  border: 2px solid rgb(230, 22, 22);
+  background-color: rgb(66, 2, 66);
+ margin-top: -130px;
+ margin-left: 20px;
+  box-sizing: border-box ;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    box-sizing: border-box;
+    margin-top: -100px;
+    margin-left: 300px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.bigsquare{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(204, 117, 132);
+    box-sizing: border-box;
+    margin-top: -195px;
+    margin-left: 450px;
+    border: 1px solid black;
+}
+.linebox2 {
+    margin-top: 100px;
+    border: 1px dashed black;
+    height: 450px;
+    width: 100%;
+}
+.linebox2 h5{
+    position: relative;
+    top: -90px;
+    font-size: 30px;
+}
+.circle1 {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 65px;
+    top: 550px;
+    width: 90px;
+    height: 90px;
+
+  }
+.circle2 {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    top: 640px;
+    width: 120px;
+    height: 120px;
+
+  }
+.circle3 {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 35px;
+    top: 760px;
+    width: 150px;
+    height: 150px;
+
+  }
+  .coal1{
+     padding-top: 15px;
+     padding-left: 15px;
+  
+  }
+.coal2{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.linebox3 {
+    margin-top: 100px;
+    border: 1px dashed black;
+    height: 450px;
+    width: 100%;
+}
+.linebox3 h9{
+    position: relative;
+    top: -50px;
+    font-size: 30px;
+}
+.square1 {
+width: 200px;
+    height: 200px;
+    background-color: rgb(175, 175, 155);
+    box-sizing: border-box;
+    margin-top: 700px;
+    margin-left: 450px;
+    border: 1px solid black;
+}
+.coal2{
+margin-top: 1px;
+margin-left: 2px;
+}
+.bigsquare1 {
+    width: 350px;
+        height: 350px;
+        background-color:rgb(236, 223, 206);
+        box-sizing: border-box;
+        margin-top: -350px;
+        margin-left: 50px;
+        border: 1px solid black;
+}
+.bigcircle{
+border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    background-color:green;
+    position: absolute;
+    float: left;
+    left: 60px;
+    top: 1150px;
+    width: 250px;
+    height: 250px;}
+
+.smallsquare {
+        width: 150px;
+            height: 150px;
+            background-color:rgb(175, 81, 46);
+            box-sizing: border-box;
+            margin-top: -300px;
+            margin-left: 105px;
+            border: 1px solid black;
+            display: table;
+            float: left;
+            position: absolute;
+}
+.smallsquare h10{
+    position: relative;
+    bottom: -110px;
+    left: 35px;
+    font-size: 20px;
+  text-align: center;
+  margin: auto;
+  color:white;
+
+    
+}
+
+.smallcircle {
+    border-radius: 50%;
+    background-color:rgb(52, 7, 255);
+    position: absolute;
+    float: left;
+    left: 112px;
+    top: 1200px;
+    width: 110px;
+    height: 110px;}
+
+
+.fishy{
+    padding-top: 15px;
+    padding-left: 30px;
+}
