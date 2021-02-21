@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+gitDefinition = 'I define Git stuff'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+gitHubDefinition = 'askJeeves throwback'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,11 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init={
+    description: 'Describes stuff',
+    code: 'git init'
+
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +45,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone={
+    description: 'Clone github URL to start a project',
+    code: 'git clone'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +56,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status={
+    description: 'shows what is going on',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +67,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add={
+    description: 'adds files and gets ready for commit',
+    code: 'git add'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +78,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit={
+    description: 'here you can get the code ready topush and add notes',
+    code: 'git commit -m"'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +89,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote={
+    description: 'adds things remotely',
+    code: 'git remote add origin'
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +100,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push={
+    description: 'pushes it to github',
+    code: 'git push'
+}
